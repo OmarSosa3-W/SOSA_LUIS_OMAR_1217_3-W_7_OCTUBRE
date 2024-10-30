@@ -225,3 +225,48 @@ print() #para una linea en blanco
 ![image](https://github.com/user-attachments/assets/a0c1156a-fce7-483b-91a8-19572c3013be)
 
 # PROGRAMA 18:
+print() #para una linea en blanco
+print("SOSA LUIS OMAR 1217_3-W") #nombre del creador
+print() #para una linea en blanco
+def my_function(*, x):
+    print(f"El valor de x es: {x}") #para imprimir el valor de x
+    cuadrado = x ** 2 #la operacio que se debe realizar
+    print(f"El cuadrado de {x} es: {cuadrado}") #el resultado de la operacion osea el cuadrado
+
+my_function(x=3) #para que imprima la función 
+print() #para una linea en blanco
+
+![image](https://github.com/user-attachments/assets/f1598b82-c297-4fed-a9c5-4d1e17fa8048)
+![image](https://github.com/user-attachments/assets/bf8e97e8-1729-4fb8-8df9-e7e7b97ebed7)
+
+# PROGRAMA 19:
+print() #para una linea en blanco
+print("SOSA LUIS OMAR 1217_3-W") #nombre del creador
+print() #para una linea en blanco
+def my_function(z, h, /, *, c, d): #definir las variables de la función 
+    print(z + h + c + d) #se rescriben laa variables pero ahora para que se sumen solamente 
+
+my_function(50, 26, c = 12, d = 16) #se le dan los valores a las letras (caracteres) para que realize la suma
+print() #para una linea en blanco
+
+![image](https://github.com/user-attachments/assets/85c5ab7b-5172-47bc-96a6-7a589526e894)
+![image](https://github.com/user-attachments/assets/ff226f6b-0f8b-4ac6-ace7-820fefdb3f63)
+
+# PROGRAMA 20:
+print() #para una linea en blanco
+print("SOSA LUIS OMAR 1217_3-W") #nombre del creador
+print() #para una linea en blanco
+def tri_recursion(n): #se difine la función 
+    if n > 0: #para dar la indicación que debe cumplir una condición 
+        result = n + tri_recursion(n - 1) #indica que el carater tendra cierto valor el cual se le samara 
+        print(result) #indica que debe imprimie el resultado
+    else: #de otro modo
+        result = 0 #muestra que el resultado sera 0
+    return result #devuelve el resultado calculado 
+
+print("\n\nRecursion Example Results") #muestre este mensaje 
+tri_recursion(6) #que lo imprima hasta el numero 6
+print() #para una linea en blanco
+
+![image](https://github.com/user-attachments/assets/2b3c55d8-d812-4c90-b061-16e0c5dbe92f)
+![image](https://github.com/user-attachments/assets/ceb346e7-16ba-49d8-a546-073b3d0e6fb1)
