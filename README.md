@@ -90,4 +90,138 @@ print() #una linea en blnaco
 ![image](https://github.com/user-attachments/assets/63f1ae16-495d-49f1-b159-a4152d362ad7)
 
 # PROGRAMA 8: 
+print() #para una linea en blanco
+print("SOSA LUIS OMAR 1217_3-W: MI PRACTICA DE BANDAS DE ROCK") #nombre del creador
+print()  #para una linea en blanco
+def mi_funcion(**banda): #el nombre de la funcion o lo que imprimira
+    print("El nombre de la banda es " + banda["nombre"]) #indicamos que mostrara la funcion banda
 
+mi_funcion(nombre="Queen", genero="Rock", año="1970") #declaramos lo que se mostrara la función
+print()  #para una linea en blanco
+
+![image](https://github.com/user-attachments/assets/60d4315f-251a-4020-afb8-8b512263e358)
+![image](https://github.com/user-attachments/assets/cbdcdcee-a1d6-4b22-ac3a-a246d603b4cd)
+
+# PROGRAMA 9:
+print() #para una linea en blanco
+print("SOSA LUIS OMAR 1217_3-W: MI PRACTICA DE FUNCIONES") #el nombre del creador 
+print() #para una linea en blanco
+def mi_informacion(escuela="prepa 128", edad=18, año_nacimiento=2006):  #se colocan las variables que se mostraran
+    print("Estudio en la " + escuela + ", tengo " + str(edad) + " años y nací en el año " + str(año_nacimiento))
+
+mi_informacion() #la primer funcion 
+mi_informacion(escuela="otra escuela") #mostrara otra escuela si la hay
+mi_informacion(edad=19) #otro año o otra edad
+print() #para una linea en blanco
+
+![image](https://github.com/user-attachments/assets/f82ad8f3-1f26-492a-8de6-1c144b648479)
+![image](https://github.com/user-attachments/assets/a3eb0ab7-9669-432d-ae7a-ebb05e537fde)
+
+# PROGRAMA 10:
+print() #para una linea en blanco
+print("SOSA LUIS OMAR 1217_3-W: MI PRACTICA DE MATERIAS EN FUNCIONES") #nombre del creador 
+print() #para una linea en blanco
+def mi_funcion(materias): #definir la función 
+    for x in materias: #para que muestre la funcion 
+        print(x)
+
+materias = ["Pensamiento matemático", "Español", "Inglés", "Química", "Civismo", "Francés"] #las variables ingresadas
+
+mi_funcion(materias) #que imprima la materia 
+print() #para una linea en blanco
+
+![image](https://github.com/user-attachments/assets/84f3227c-e09c-4b35-934b-5ef41300a98f)
+![image](https://github.com/user-attachments/assets/8c072da9-e253-437b-8497-c8f5e5794f05)
+
+# PROGRAMA 11:
+print() #para una linea en blanco
+print("SOSA LUIS OMAR 1217_3-W: MI PRACTICA DE NUMEROS EN FUNCIONES")
+print() #para una linea en blanco
+def mi_funcion(x):
+    return x * x
+
+print(mi_funcion(3))
+print(mi_funcion(5))
+print(mi_funcion(9))
+print() #para una linea en blanco
+
+![image](https://github.com/user-attachments/assets/a69f5171-100f-49a5-b318-425940250bdf)
+![image](https://github.com/user-attachments/assets/1944d409-55c0-481b-a8bb-8724cb338d4e)
+
+# PROGRAMA 12:
+print() #para un espacio al ejecutar
+print("SOSA LUIS OMAR 1217_3-W: MI PRACTICA DE PASS") #el nombre del creador
+print() #para un espacio al ejecutar
+def mi_funcion(): #la función que sera
+    pass #para que no te marque error
+print() #para un espacio al ejecutar
+
+![image](https://github.com/user-attachments/assets/08889f79-54f2-49bb-b3d6-8db970cab7f2)
+![image](https://github.com/user-attachments/assets/07eec5f3-3506-4084-a3b1-059d70218158)
+
+# PROGRAMA 13:
+print() #una linea en blanco
+print("SOSA LUIS OMAR 1217_3-W: MI PRACTICA DE ARGUMENTOS POSICIONALES") #el nombre del creador
+print() #una linea en blanco
+def mi_funcion(x, /): #se define la funcion 
+    print(x) #para que imprima la funcion 
+
+mi_funcion(3) #que muestre el resultado en pantalla
+print() #una linea en blanco
+
+![image](https://github.com/user-attachments/assets/ef68e17f-6d43-4e89-8c24-cd6b5169da19)
+![image](https://github.com/user-attachments/assets/256bbda7-3a26-473f-beae-a75494e3dce2)
+
+# PROGRAMA 14:
+print() #una linea en blanco
+print("SOSA LUIS OMAR 1217_3-W: MI PRACTICA DE EDAD") #nombre del creador
+print() #una linea en blanco
+def mi_funcion(edad): #definir la funcion
+    print(edad) #que imprima la funcion
+
+mi_funcion(edad=18) #como o que imprimira
+print() #una linea en blanco
+
+![image](https://github.com/user-attachments/assets/060ee973-3e7f-4c56-8848-e7015c183b99)
+![image](https://github.com/user-attachments/assets/00eacc84-8361-484b-90e5-33b6927e772e)
+
+# PROGRAMA 15:
+print() #para una linea en blanco
+print("SOSA LUIS OMAR 1217_3-W") #nombre del creador
+print() #para una linea en blanco
+def mi_funcion(nombre, /):
+    print(nombre)
+
+# Esto generará un error porque se está usando un argumento de palabra clave
+mi_funcion(nombre="Juan")  # Esto causará un TypeError
+
+![image](https://github.com/user-attachments/assets/ee517c6b-e24c-4779-bd45-fde7c3038e8e)
+![image](https://github.com/user-attachments/assets/1dc4cbbd-ee86-4b6f-a793-f128f9e7cefe)
+
+# PROGRAMA 16: 
+print() #para una linea en blanco
+print("SOSA LUIS OMAR 1217_3-W") #nombre del creador
+print() #para una linea en blanco
+def mi_funcion(*, x): #definir la función 
+    print(x) #imprimir la función indicada
+
+mi_funcion(x=3) #Esto funciona correctamente
+print() #para una linea en blanco
+
+![image](https://github.com/user-attachments/assets/444f5629-b869-4823-9679-a3372c2cd387)
+![image](https://github.com/user-attachments/assets/14a0c0af-626b-4138-a9f7-121867ff3376)
+
+# PROGRAMA 17: 
+print() #para una linea en blanco
+print("SOSA LUIS OMAR 1217_3-W") #nombre del creador
+print() #para una linea en blanco
+def mi_funcion(x): #definir la función
+    print(x) #la función se debe imprimir
+
+mi_funcion(3)  #Esto funciona correctamente
+print() #para una linea en blanco
+
+![image](https://github.com/user-attachments/assets/061697fb-e1e9-40d8-9b7f-7964c4c737d8)
+![image](https://github.com/user-attachments/assets/a0c1156a-fce7-483b-91a8-19572c3013be)
+
+# PROGRAMA 18:
